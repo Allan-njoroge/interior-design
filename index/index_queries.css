@@ -1,0 +1,33 @@
+@media only screen and (max-width: 768px) {
+    header h1{
+        font-size: 2rem;
+    }
+    header h5{
+        font-size: 1rem;
+        margin-top: 1rem;
+    }
+    .full_site_link{
+        font-size: 0.8rem;
+    }
+    .header_container{
+        width: 100%;
+    }
+
+    /*  Why Section */
+    .why_section_container h1{
+        font-size: 2rem;
+    }
+    .card{
+        width: full;
+    }
+    .card span{
+        font-size: 3rem;
+        margin: auto 10px;
+    }
+    .card h5{
+        font-size: 1.5rem;
+    }
+    .card p{
+        font-size: 0.8rem;
+    }
+}

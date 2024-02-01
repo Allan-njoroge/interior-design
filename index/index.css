@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+    scroll-behavoiur: smooth;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    width: full;
+    height: 100vh;
+    align-items: center;
+    background-position: center;
+    background-image: linear-gradient(rgba(4,9,10,0.7),rgba(4,9,30,0.7)),url(../images/photo-two.jpg);
+}
+
+.header_container{
+    width: 90%;
+}
+
+header h1{
+    font-size: 3rem;
+    text-align: center;
+    color: #fff;
+}
+
+header h5{
+    font-size: 1.5rem;
+    text-align: center;
+    color: #BBE2EC;
+    margin-top: 1rem;
+}
+header p{
+    text-align: center;
+    margin-top: 2rem; 
+}
+
+.full_site_link{
+    text-decoration: none;
+    color: #fff;
+    padding: 12px 24px;
+    border: 1px solid #fff;
+    border-radius: 24px;
+}
+.full_site_link:hover{
+    background-color: #40A2E3;
+    color: #000;
+    border: #40A2E3;
+    transition: all ease-in-out 0.8s;
+}
+
+/*  Why Section */
+.why_section{
+    display: flex;
+    justify-content: center;
+    background-color: #FFF6E9;
+}
+.why_section_container{
+    width: 90%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.why_section_container h1{
+    font-size: 2.5rem;
+    text-align: center;
+}
+.card_section{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    place-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    grid-column: 3;
+}
+.card{
+    display: flex;
+    width: 350px;
+}
+.card span{
+    font-size: 4rem;
+    margin: auto 10px;
+}
+.card h5{
+    font-size: 2rem;
+    color: #40A2E3;
+}
+.card p{
+    color: #1F2544;
+    font-size: 1rem;
+}
