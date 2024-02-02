@@ -85,7 +85,7 @@ header p{
 }
 .card span{
     font-size: 4rem;
-    margin: auto 10px;
+    margin: auto 5px;
 }
 .card h5{
     font-size: 2rem;
@@ -179,12 +179,16 @@ footer ul{
 }
 footer a{
     text-decoration: none;
+    margin: 5px 0;
     color: #fff;
     font-size: 0.9rem;
 }
 footer a:hover{
     color: gray;
     transition: all ease-in 0.3s;
+}
+.footer_section .footer_top ul li span.material-symbols-outlined {
+    vertical-align: middle;
 }
 .footer_section .footer_bottom{
     display:flex;

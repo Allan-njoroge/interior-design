@@ -117,7 +117,7 @@
     }
 }
 
-@media only screen and (max-width: 300px){
+@media only screen and (max-width: 350px){
     header h1{
         font-size: 1.5rem;
     }
@@ -135,10 +135,17 @@
     .card h5{
         font-size: 1.3rem;
     }
+    .card{
+        display: flex;
+        width: 270px;
+    }
 
     /*  About Section */
     .about_section img{
         width: 250px;
         border-radius: 20px 0;
+    }
+    .company_text_footer{
+        width: 270px
     }
 }
