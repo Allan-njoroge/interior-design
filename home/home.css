@@ -192,7 +192,6 @@ header{
     justify-content: center;;
 }
 .customer_section .customer_main_card{
-    margin-top: 50px;
     display: grid;
     grid-template-columns: repeat(7, 1fr);
     gap: 100px;
