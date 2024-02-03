@@ -180,3 +180,114 @@ header{
     align-items:center;
     vertical-align: center;
 }
+
+/* Customer section*/
+.customer_section{
+    margin: 80px auto;
+    width: 90%;
+    diplay: flex;
+    justify-content: center;;
+}
+.customer_section .customer_main_card{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 100px;
+    height: 260px
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+.customer_card{
+    padding: 30px;
+    width: 300px;
+    height: 230px;
+    margin: 50px 0;
+    border-radius: 30px;
+    background-color: burlywood;
+}
+.customer_section .customer_main_card::-webkit-scrollbar {
+    height: 5px; /* Adjust the height of the scrollbar */
+}
+
+.customer_section .customer_main_card::-webkit-scrollbar-thumb {
+    background-color: burlywood; /* Set the color of the thumb (the moving part) */
+}
+
+.customer_section .customer_main_card::-webkit-scrollbar-track {
+    background-color: lightgray; /* Set the color of the track (the non-moving part) */
+}
+
+/* Footer Section */
+footer {
+    color: #fff;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+}
+.footer_section{
+    width: 90%;
+}
+.footer_top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 100px 0 50px 0;
+}
+.company_text_footer{
+    width: 350px
+}
+.company_text_footer p{
+    color: lightgray;
+    font-size: 1rem;
+}
+
+/* Footer Section */
+footer h5{
+    font-size: 2rem;
+}
+footer h3{
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+footer ul{
+    list-style-type: none;
+}
+footer a{
+    text-decoration: none;
+    margin: 5px 0;
+    color: #fff;
+    font-size: 0.9rem;
+}
+footer a:hover{
+    color: gray;
+    transition: all ease-in 0.3s;
+}
+.footer_section .footer_top ul li span.material-symbols-outlined {
+    vertical-align: middle;
+}
+.footer_section .footer_bottom{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+/* Responsive Footer*/
+@media only screen and (max-width: 700px){
+    .footer_top{
+        display: flex;
+        flex-direction: column;
+    }
+    footer h5{
+        font-size: 2rem;
+    }
+    footer h3{
+        font-size: 1.5rem;
+        margin: 30px 0 10px 0;
+    }
+    .footer_section .footer_bottom{
+        display:flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+}
