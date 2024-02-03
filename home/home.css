@@ -177,8 +177,11 @@ header{
 .marquee_section marquee{
     font-size: 2rem;
     color: #fff;
-    align-items:center;
-    vertical-align: center;
+}
+@media only screen and (max-width: 648px) {
+    .marquee_section marquee{
+        font-size: 1rem;
+    }
 }
 
 /* Customer section*/
