@@ -131,7 +131,7 @@ header p{
     border: 1px solid #000;
 }
 .about_text a span{
-    margin: auto 0; 
+    margin: auto 0 auto 5px; 
 }
 .about_text a:hover{
     background-color: #000;
