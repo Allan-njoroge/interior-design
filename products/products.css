@@ -84,3 +84,36 @@ nav ul li:nth-child(2) a {
         text-items: center;
     }
 }
+
+/*  Header Section  */
+.header_section{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    //background-color: red;
+    margin: auto;
+}
+.header_section div{
+    margin: 10% 0;
+}
+.header_section div p{
+    font-size: 3rem;
+    text-align: center; 
+}
+
+/*  Responsive Header Section   */
+@media only screen and (max-width: 500px){
+    .header_section div p{
+        font-size: 2rem;
+    }
+}
+
+marquee{
+    font-size: 2rem;
+    background: #000;
+    color: burlywood;
+    padding: 10px;
+}
+@media only screen and (max-width: 500px) {
+    marquee: 1.3rem;
+}
