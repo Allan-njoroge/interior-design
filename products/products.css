@@ -168,15 +168,22 @@ img:hover{
     text-align: center;
 }
 .buy_btn{
+    width: 100%;
     border: none;
     background: burlywood;
-    padding: 10px 20px;
+    padding: 8px;
     margin-top: 10px;
     margin: 15px 0 0 0;
     border-radius: 5px;
     cursor: pointer;
     border: 1px solid #000;
     transition: all ease-in 0.3s;
+}
+h6{
+    postion: relative;
+    background: #000;
+    color: burlywood;
+    padding: 2px 0;
 }
 .buy_btn:hover{
     background: transparent;
@@ -202,6 +209,9 @@ img:hover{
     }
     .main_section{
         width: 100%;
+    }
+    ul iu div p{
+        font-size: 0.8rem
     }
 }
 @media only screen and (max-width: 360px) {
