@@ -43,6 +43,25 @@
             Advertisement!! Advertisement!! get all the latest product at 20% off
         </marquee>
     </div>
+        
+    <!--Purchase Information Form-->
+    <div class="overlay"></div>
+    <div class="hidden" id="form_container">
+        <div class="form_popup">
+            <!--The form-->
+            <form action="" class="form">
+                <div class="form_header">
+                    <h1>Purchase Information</h1>
+                    <span class="material-symbols-outlined" id="close_btn">
+                        close
+                    </span>
+                </div>
+
+                <label for="firstName">First Name</label>
+                <input type="text" place="John" id="firstName" required>
+            </form>
+        </div>
+    </div>
 
     <!--Products-->
     <h1 class="title">Our Products</h1>
@@ -289,7 +308,6 @@
           </section>
         </div>
     </footer>
-    
     <script src="./products.js"></script>
 </body>
 </html>
