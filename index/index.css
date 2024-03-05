@@ -36,21 +36,29 @@ header h5{
     color: #BBE2EC;
     margin-top: 1rem;
 }
-header p{
+header .btn_container{
+    margin-top: 2rem;
     text-align: center;
-    margin-top: 2rem; 
 }
+header .btn_container button{
+    border: none;
+    background: transparent;
+} 
 
 .full_site_link{
     text-decoration: none;
-    color: #fff;
+    align-items: center;
+    text-align: center;
+    color: #000;
+    background: burlywood;
     padding: 12px 24px;
-    border: 1px solid #fff;
+    border-radius: 5px;
+    border: 1px solid #000;
 }
 .full_site_link:hover{
-    background-color: #40A2E3;
-    color: #000;
-    border: #40A2E3;
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
     transition: all ease-in-out 0.8s;
 }
 
