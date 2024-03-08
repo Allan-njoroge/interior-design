@@ -18,32 +18,18 @@ menuIcon.addEventListener('click', () => {
 });
 
 
-/*let closeBtn = document.querySelector("#close_btn");
-let buyBtns = Array.from(document.querySelectorAll(".buy_btn"));
-let formSection = document.querySelector(".form_section");
-let formSectionOpen = false;
-
-closeBtn.addEventListener('click', () => {
-    formSection.classList.remove("formSectionOpened");
-    formSection.classList.add("formSectionClosed");
-    formSectionOpen = false;
-    
-});
+let buyBtns = Array.from(document.querySelectorAll('.buy_btn'));
+let overlay = document.querySelector(".overlay");
+let formContainer = document.querySelector(".form_container");
+let closeBtn = document.querySelector("#closebtn");
 
 buyBtns.forEach(buyBtn => buyBtn.addEventListener('click', () => {
-    formSection.classList.remove("formSectionClosed");
-    formSection.classList.add("formSectionOpened");
-    formSectionOpen = true;
-}));*/
-
-document.getElementByclass('buy_btn').addEventListener('click', function() {
-    document.getElementById('overlay').style.display = 'block';
-    document.getElementById('formContainer').style.display = 'block';
-    document.body.style.overflow = 'hidden';
-});
-
-document.getElementById('close_btn').addEventListener('click', function() {
-    document.getElementById('overlay').style.display = 'none';
-    document.getElementById('formContainer').style.display = 'none';
-    document.body.style.overflow = 'auto';
-});
+    overlay.style.display = "block";
+    formContainer.classList.add("formOpen");
+    formContainer.classList.remove("formClosed");
+}))
+closeBtn.addEventListener('click', () => {
+    overlay.style.display = "none";
+    formContainer.classList.add("formClosed");
+    formContainer.classList.remove("formOpen");
+})

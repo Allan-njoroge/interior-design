@@ -359,8 +359,23 @@ footer a:hover{
 }
 
 /* Form Container */
-.form_container{
-    position: absolute;
+.overlay{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background: #000;
+    opacity: 0.5;
+    z-index: 1;
+    display: none;
+    pointer-interaction: none;
+    transition: all ease-in-out 0.3s;
+}
+.form_container, 
+.formOpen,
+.formClosed{
+    position: fixed;
+    top: 0;
     width: 50%;
     //height: 100vh;
     display: flex;
@@ -369,6 +384,15 @@ footer a:hover{
     background: #fff;
     z-index: 2;
     transition: all ease-in-out .3s;
+    overflow: hidden;
+}
+.formOpen{
+    margin-left: 0;
+    opacity: 1;
+}
+.formClosed{
+    margin-left: -600px; 
+    opacity: 0;
 }
 form{
     padding: 20px 0;
