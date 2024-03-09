@@ -387,15 +387,15 @@ footer a:hover{
     top: 0;
     width: 50%;
     height: 100%;
-    display: flex;
+    //display: flex;
     justify-content: center;
     align-items: center;
     background: #fff;
     z-index: 2;
-    transition: all ease-in-out .3s;
+    transition: all ease-in-out 0.5s;
 }
 .formOpen{
-    //display: flex;
+    display: flex;
     margin-left: 0;
     opacity: 1;
 }
