@@ -184,28 +184,43 @@ input, textarea{
     background: transparent;
 }
 
-
+/* Table Section*/
 .table_section{
     width: 100%;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow-x: hidden;
+    overflow-y: auto;
+
 }
 table{
     border: 1px solid #000;
-    margin: auto;
-    width: 80%;
+    margin: 50px auto;
+    width: 90%;
+    max-width: 800px;
     border-collapse: collapse;
     text-align: center;
     border-radius: 5px;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 th,td{
     border: 1px solid #000;
+    font-size: 0.8rem;
+    padding: 8px;
 }
 tr{
     height: 50px;
     width: 300px;
+}
+@media only screen and (max-width: 768px) {
+    /* Adjustments for smaller screens */
+    table {
+        width: 95%;
+        font-size: 0.7rem; /* Decrease font size for smaller screens */
+    }
 }
 
 /* Footer Section */

@@ -71,3 +71,10 @@ closeBtn.addEventListener('click', () => {
     formContainer.classList.remove("formOpen");
     body.classList.remove("no-scroll"); // Remove class to enable scrolling
 });
+
+//confirm order button
+let confirmOrder = document.querySelector(".order_btn");
+
+confirmOrder.addEventListener('click', () => {
+    window.location.href = "../contacts/contacts.html";
+});

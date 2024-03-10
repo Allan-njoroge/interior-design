@@ -149,7 +149,7 @@ header .btn_container button{
 }
 .about_section img{
     width: 600px;
-    border-radius: 50px 0;
+    border-radius: 10px;
 }
 /* Footer Section */
 footer {
