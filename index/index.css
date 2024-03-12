@@ -7,6 +7,9 @@
     font-family: Poppins;
     scroll-behavoiur: smooth;
 }
+body{
+    background-color: lightgray;
+}
 
 header{
     display: flex;
@@ -33,7 +36,7 @@ header h5{
     font-size: 1.5rem;
     text-align: center;
     font-weight: 300;
-    color: #BBE2EC;
+    color: lightgray;
     margin-top: 1rem;
 }
 header .btn_container{
@@ -67,7 +70,6 @@ header .btn_container button{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #FFF6E9;
 }
 .why_section_container{
     width: 90%;
@@ -97,10 +99,9 @@ header .btn_container button{
 }
 .card h5{
     font-size: 2rem;
-    color: #40A2E3;
 }
 .card p{
-    color: #1F2544;
+    margin-top: 10px;
     font-size: 1rem;
 }
 
