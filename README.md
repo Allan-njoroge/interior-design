@@ -42,4 +42,4 @@ This project is a learning exercise created by beginners to practice HTML, CSS, 
 <a href="https://github.com/Brighton44">Brighton Munene</a><br>
 <a href="https://github.com/kdotgoat">Wise Orado</a><br>
 <a href="https://github.com/HASTAELFAO">Francis Austin</a><br>
-<a href="">Ali Abeid</a><br>
+<a href="https://github.com/Abeid21">Ali Abeid</a><br>
