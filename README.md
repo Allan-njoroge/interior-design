@@ -31,15 +31,15 @@ This is a multipage School Website project created for a fictional project. The 
     The <marquee> tag is used to add dynamic scrolling text, providing an engaging and visually appealing element to the website.
 
 
-<h2>Note</h2>
+# Note
 This project is a learning exercise created by beginners to practice HTML, CSS, and JavaScript. Feel free to explore and 
 
 
 # Contributors
-<a href="">Allan Njoroge</a>
-<a href="">Lynn Kamau</a>
-<a href="">Brighton Ouma</a>
-<a href="">Brighton Munene</a>
-<a href="">Wise Orado</a>
-<a href="">Francis Austin</a>
-<a href="">Ali Abeid</a>
+<a href="">Allan Njoroge</a><br>
+<a href="">Lynn Kamau</a><br>
+<a href="">Brighton Ouma</a><br>
+<a href="">Brighton Munene</a><br>
+<a href="">Wise Orado</a><br>
+<a href="">Francis Austin</a><br>
+<a href="">Ali Abeid</a><br>
