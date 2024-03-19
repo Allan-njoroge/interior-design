@@ -1,6 +1,6 @@
 ﻿# interior-design
 
-This is a multipage School Website project created for a fictional project. The website is designed to showcase the company's history, products, services, recent advertisements, and enable online transactions. The project utilizes HTML, CSS, and incorporates some JavaScript functionalities.
+This is a multipage School Website project created for a fictional company. The website is designed to showcase the company's history, products, services, recent advertisements, and enable online transactions. The project utilizes HTML, CSS and incorporates some JavaScript functionalities.
 
 <h1>Pages</h1>
 
@@ -32,14 +32,14 @@ This is a multipage School Website project created for a fictional project. The 
 
 
 # Note
-This project is a learning exercise created by beginners to practice HTML, CSS, and JavaScript. Feel free to explore and 
+This project is a learning exercise created by beginners to practice HTML, CSS, and JavaScript. Feel free to explore. 
 
 
 # Contributors
-<a href="">Allan Njoroge</a><br>
-<a href="">Lynn Kamau</a><br>
-<a href="">Brighton Ouma</a><br>
-<a href="">Brighton Munene</a><br>
-<a href="">Wise Orado</a><br>
-<a href="">Francis Austin</a><br>
+<a href="https://github.com/Allan-njoroge">Allan Njoroge</a><br>
+<a href="https://github.com/lynnkamau28">Lynn Kamau</a><br>
+<a href="https://github.com/63-tech">Brighton Ouma</a><br>
+<a href="https://github.com/Brighton44">Brighton Munene</a><br>
+<a href="https://github.com/kdotgoat">Wise Orado</a><br>
+<a href="https://github.com/HASTAELFAO">Francis Austin</a><br>
 <a href="">Ali Abeid</a><br>
